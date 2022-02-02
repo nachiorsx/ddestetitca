@@ -9,7 +9,7 @@
 }
 
 /* Grid Areas */
-#gridAreas{
+.gridAreas{
     display: grid;
     grid-template-areas:
     /* Fila 1 */    
@@ -1126,7 +1126,7 @@ footer p{
 
 /* Mobile */
 @media (max-width: 480px) {
-    #gridAreas {
+    .gridAreas {
         display: grid;
         grid-template-areas:
         /* Fila 1 */    
@@ -1267,7 +1267,8 @@ footer p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%
+        width: 100%;
+        margin: 0%;
     }
     .sectionFooterDos{
         display: flex;
@@ -1281,6 +1282,7 @@ footer p{
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 0%;
     }
     .alineacionDatos{
         font-weight: 700;
