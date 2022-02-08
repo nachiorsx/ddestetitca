@@ -14,6 +14,10 @@ h1{
 nav{
     background-color: rgb(205, 75, 245);
 }
+/* Estilos al Main */
+.mainGaleria{
+    font-size: 20px;
+}
 /* Estilos al Footer */
 footer{
     background-color: rgb(94, 212, 248);
