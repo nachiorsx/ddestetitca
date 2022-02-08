@@ -21,7 +21,7 @@ footer{
 footer h2{
     color: rgb(185, 8, 255);
 }
-li:hover{
+.hover:hover{
     background-color: rgb(94, 212, 248);
 }
 
